@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aditya VM | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Bricolage+Grotesque:wght@400;600;800&family=Gochi+Hand&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<noscript><style>#gate{display:none}</style></noscript>
+</head>
+<body>
+
+<div id="gate">
+  <i class="band" style="--c:var(--p)"></i><i class="band" style="--c:var(--y)"></i><i class="band" style="--c:var(--b)"></i><i class="band" style="--c:var(--g)"></i>
+  <div class="gate-in">
+    <div class="blobs"></div>
+    <h1 class="big">WHO IS THIS GUY?</h1>
+    <p class="hand">Good question. <span id="load">Inflating blobs…</span></p>
+    <button id="enter" class="btn" hidden>ENTER THE CHAOS</button>
+  </div>
+</div>
+
+<div id="bar"></div>
+<nav>
+  <a class="logo" href="#hero">ADITYA VM</a>
+  <ul>
+    <li><a href="#about">About</a></li><li><a href="#skills">Stack</a></li><li><a href="#projects">Projects</a></li><li><a href="#timeline">Journey</a></li><li><a href="#doodle">Doodle</a></li><li><a href="#contact">Hi!</a></li>
+  </ul>
+</nav>
+
+<main id="page">
+<section id="hero" class="s-cream">
+  <div class="hero-l">
+    <p class="hand">YOOOO… Hello 👋 I'm</p>
+    <h1 class="name" data-split>ADITYA VM</h1>
+    <h2 class="role"><span id="typing"></span><i class="caret"></i></h2>
+    <p class="lead">Second-year Computer Science student at PES University. Into Java, Spring Boot, competitive programming and startups, exploring ContentCreation and Creative field.</p>
+    <div class="row"><a class="btn" href="#projects">View Projects</a><a class="btn alt" href="Resume u3.pdf">Resume</a></div>
+  </div>
+  <div class="hero-r">
+    <div class="photo"><img src="img3.jpeg" alt="Aditya flexing in front of a stage, cartoon-style portrait"></div>
+    <span class="tag t1">Sexy built</span><span class="tag t2">Startup enthusiast</span><span class="tag t3">Cool n chaotic 🌀</span>
+    <div class="blobs small"></div>
+  </div>
+</section>
+
+<div class="ticker t-a" aria-hidden="true"><div>JAVA ✦ SPRING BOOT ✦ CHAOS ✦ STARTUPS ✦ LEETCODE ✦ BUILD EVERYDAY ✦ CONTENTCREATION ✦ CREATIVITY </div></div>
+
+<section class="stats s-pink">
+  <div class="stat"><b class="counter" data-n="10">0</b><p>Projects</p></div>
+  <div class="stat"><b class="counter" data-n="5">0</b><p>Events voluntreed/organised</p></div>
+  <div class="stat"><b class="counter" data-n="3">0</b><p>Hackathons / Ideathons</p></div>
+  <div class="stat"><b class="spin">∞</b><p>Backchodi</p></div>
+</section>
+
+<section id="about" class="s-blue">
+  <h2 class="h2">WHO...AM..I.?</h2>
+  <div class="about">
+    <figure class="polaroid"><img src="adi.jpeg" alt="Close-up cartoon-style portrait of Aditya with glasses"><figcaption class="hand">Aaaadddii.....</figcaption></figure>
+    <ul class="bubbles">
+      <li style="--r:-2deg">Java Backend Developer</li>
+      <li style="--r:1.5deg">Tech Enthusiast</li>
+      <li style="--r:-1deg">Startups Enthusiast</li>
+      <li style="--r:-1.5deg">Aspiring ContentCreator</li>
+      <li style="--r:-1.5deg">Creative Soul</li>
+      <li style="--r:-1.5deg">Of course a GOOD HUMAN BEING 😇</li>
+    </ul>
+  </div>
+</section>
+
+<section id="skills" class="s-green">
+  <h2 class="h2">TECH STACK</h2>
+  <div class="chips"><span>Java</span><span>Spring Boot</span><span>SQL</span><span>Hibernate</span><span>Git</span><span>GitHub</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span></div>
+  <h2 class="h2 sm">NON-TECH STACK</h2>
+  <div class="chips"><span>ContentCreation</span><span>Video Editing</span><span>Unorthodox Marrketing</span><span>Change management</span><span>Business acumen</span><span>Presentation skills</span><span>Strategy planning &amp; execution</span><span>Goal setting</span><span>Innovation &amp; creativity</span></div>
+</section>
+
+<div class="ticker t-b" aria-hidden="true"><div>DRAG THE CARDS ✦ BREAK THINGS ✦ FIX THINGS ✦ SHIP THINGS ✦ DRAG THE CARDS ✦ BREAK THINGS ✦ </div></div>
+
+<section id="projects" class="s-yellow">
+  <h2 class="h2">PROJECTS</h2>
+  <div class="railbar"><span class="hand">drag me sideways →</span><span><button class="rb" data-d="-1" aria-label="Scroll projects left">←</button><button class="rb" data-d="1" aria-label="Scroll projects right">→</button></span></div>
+  <div class="rail" tabindex="0" aria-label="Projects">
+    <article class="pc" style="--c:var(--p);--r:-2deg"><span class="stamp">IN PROGRESS</span><h3>CHAOSCODE</h3><p>Flagship. An interactive coding platform and much more.</p><a class="btn sm" href="https://github.com/ADITYAVM21">Follow on GitHub</a></article>
+    <article class="pc" style="--c:var(--b);--r:1.5deg"><h3>Spring Job Portal</h3><p>Spring Boot + MySQL + Frontend.</p><a class="btn sm" href="https://github.com/ADITYAVM21">GitHub</a></article>
+    <article class="pc" style="--c:var(--g);--r:-1deg"><h3>Event Management Platform</h3><p>Booking, publishing and exploring events.</p><a class="btn sm" href="https://github.com/ADITYAVM21">GitHub</a></article>
+    <article class="pc" style="--c:var(--o);--r:2deg"><h3>Real-Time Chat App</h3><p>Spring Boot + Spring WebSocket + Frontend.</p><a class="btn sm" href="https://github.com/ADITYAVM21">GitHub</a></article>
+    <article class="pc" style="--c:var(--p);--r:2deg"><h3>For More...</h3><p>Visit GitHub</p><a class="btn sm" href="https://github.com/ADITYAVM21">GitHub</a></article>
+    
+  </div>
+</section>
+
+<section id="timeline" class="s-cream">
+  <h2 class="h2">JOURNEY</h2>
+  <ol class="path">
+    <li style="--c:var(--b)">🐍 Started Python</li><li style="--c:var(--p)">🎨 Started frontend web dev</li><li style="--c:var(--y)">🧭 Explored other things</li><li style="--c:var(--o)">☕ Started Java</li><li style="--c:var(--g)">🍃 Spring Boot</li><li style="--c:var(--b)">🔌 Java JDBC</li><li style="--c:var(--p)">🎓 Harvard Management Mentor course</li><li style="--c:var(--y)">🚀 YC Startup School course</li><li style="--c:var(--o)">📸 Exploring ContentCreation</li><li style="--c:var(--g)">🔥 MUCH MORE TO GOOO…</li>
+  </ol>
+</section>
+
+<section id="doodle" class="s-orange">
+  <h2 class="h2">DOODLE WALL</h2>
+  <p class="lead c">Backchodi time.... remove the shit out of ur head here...</p>
+  <div class="tools">
+    <button data-tool="pencil" class="on">✏️ Pencil</button><button data-tool="spray">🎨 Spray</button><button data-tool="eraser">🧽 Eraser</button>
+    <span id="sw"></span><input id="size" type="range" min="3" max="40" value="8" aria-label="Brush size">
+    <button id="clear">Reset</button><button id="save">Save PNG</button>
+  </div>
+  <canvas id="cv" width="1200" height="600" aria-label="Drawing canvas"></canvas>
+</section>
+
+<section id="contact" class="s-pink">
+  <h2 class="h2">LET'S CONNECT</h2>
+  <div class="icons">
+    <a href="https://github.com/ADITYAVM21" aria-label="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/aditya-munavalli-279687361/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    <a href="mailto:adityamunavalli21@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    <a href="https://www.instagram.com/chao_adiii_tic/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+  </div>
+  <footer>Designe &amp; Creativity by Adityaaaa..... 😉</footer>
+</section>
+</main>
+
+<button id="chaos">DON'T PRESS</button>
+<button id="top" aria-label="Back to top">🚀</button>
+<script src="script.js"></script>
+</body>
+</html>
